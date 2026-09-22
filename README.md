@@ -22,14 +22,14 @@ Grand Crown now provides a **Pay with PesaJet** button using this checkout link:
 **Important:** This is a hosted-checkout link redirect, not a completed API/webhook integration. The app does not independently verify PesaJet payments or automatically activate purchases. Confirm the amount shown at checkout matches the selected product; for automatic confirmation and per-order amounts, configure PesaJet API credentials and a verified webhook with PesaJet.
 
 ## Withdrawal rules
-- Minimum withdrawal: UGX 7,000
+- Minimum withdrawal: UGX 3000
 - Withdrawal fee: 12%
 - At least one approved product purchase is required before withdrawal is allowed.
 - Withdrawal requests remain pending until an administrator manually marks them paid or rejects them.
 
 ## Referral rules
 - Every registered user receives a unique referral code.
-- Three levels: 25% / 2% / 1%.
+- Three levels: 10% / 2% / 1%.
 - Commissions are created only when the referred user's purchase is manually approved.
 - Duplicate commission creation is prevented per purchase and level.
 
@@ -37,7 +37,7 @@ Grand Crown now provides a **Pay with PesaJet** button using this checkout link:
 Approved purchases have independent earning schedules. The server credits one daily earning after each completed 24-hour period, up to the product validity period, and prevents duplicate daily credits.
 
 ## Support
-- Customer support: `@Doritos1225`
+- Customer support: `@GrandCrown01`
 - Telegram group: https://t.me/+zNDnaz_xKfdiMTlk
 
 ## Production notes
